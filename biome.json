@@ -96,7 +96,7 @@
         "useNamespaceKeyword": "error"
       }
     },
-    "includes": ["**", "!eslint.config.mjs"]
+    "includes": ["**", "!.agents/**"]
   },
   "javascript": {
     "formatter": {
