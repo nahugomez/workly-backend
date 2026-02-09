@@ -23,13 +23,33 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+Workly Backend - A NestJS application built with TypeScript following best practices and API design principles.
+
+## Features
+
+- **Health Check Endpoint**: Production-ready health monitoring at `/api/v1/health`
+- **API Versioning**: Global `/api/v1/` prefix for all endpoints
+- **Comprehensive Testing**: Unit and E2E tests with high coverage
+- **Code Quality**: Biome for linting and formatting
 
 ## Project setup
 
 ```bash
 $ pnpm install
 ```
+
+## Environment Configuration
+
+Copy the `.env.example` file to `.env` and configure your environment variables:
+
+```bash
+$ cp .env.example .env
+```
+
+### Environment Variables
+
+- `PORT`: Server port (default: 3000)
+- `NODE_ENV`: Application environment (development, staging, production)
 
 ## Compile and run the project
 
